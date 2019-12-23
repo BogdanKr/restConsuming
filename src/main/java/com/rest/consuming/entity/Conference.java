@@ -41,4 +41,13 @@ public class Conference {
   public void setReaderName(String readerName) {
     this.readerName = readerName;
   }
+
+  @Override
+  public String toString() {
+    return "Conference{" +
+        "id=" + id +
+        ", subject='" + subject + '\'' +
+        ", readerName='" + readerName + '\'' +
+        '}';
+  }
 }
